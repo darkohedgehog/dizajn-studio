@@ -8,7 +8,7 @@ const Gallery = () => {
   const images = [];
 
   for (let i = 1; i <= galleryLength; i++) {
-    images.push(require(`../assets/gallery${i}.jpg`));
+    images.push(require(`../../public/gallery${i}.jpg`));
   }
 
   return (
