@@ -21,8 +21,8 @@ export const navData = [
     path: '/about', 
     icon: <HiUser /> 
   },
-  { name: 'services', 
-    path: '/services', 
+  { name: 'blog', 
+    path: '/blog', 
     icon: <HiRectangleGroup /> 
   },
   { name: 'gallery', 
