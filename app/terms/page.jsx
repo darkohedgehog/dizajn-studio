@@ -1,15 +1,8 @@
-import Header from "../components/Header";
-import HeaderImage from "../assets/-high-resolution-logo-color-on-transparent-background.png";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
 const Terms = () => {
   return (
     <>
-    <Navbar />
-    <Header title="Pravila privatnosti" image={HeaderImage}>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, cum, magni error doloremque veniam distinctio repellendus tempora beatae at hic deleniti tenetur necessitatibus, explicabo assumenda voluptatum incidunt. Officiis, sit quaerat!
-    </Header>
+    
     <div className="container">
 <p>
     <h3>Uslovi korišćenja ovog web sajta:</h3>
@@ -79,7 +72,7 @@ Ovo pravno obaveštenje kao i sva pitanja u vezi ovog web sajta regulisani su za
 
 </p>
     </div>
-    <Footer />
+    
     </>
   )
 }
