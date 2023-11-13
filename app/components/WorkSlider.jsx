@@ -94,7 +94,7 @@ const WorkSlider = () => {
 
     return (
 
-        <div className="h-full w-full pt-32 mt-10 mb-0 text-center">
+        <div className="h-full w-full pt-32 mt-10 mb-0 text-center z-20">
             <div className="container mx-auto h-full w-full flex flex-col items-center gap-6">
                 {/* text */}
                 <div className="flex-1 flex flex-col justify-center">

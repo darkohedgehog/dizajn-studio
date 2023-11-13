@@ -24,7 +24,7 @@ const MainServices = () => {
 
 
   return (
-    <div className="h-full flex items-center mt-40 pt-40 lg:mt-2 lg:pt-2">
+    <div className="h-full flex items-center mt-40 pt-40 lg:mt-2 lg:pt-2 z-20">
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
           {/* text */}

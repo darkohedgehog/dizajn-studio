@@ -8,7 +8,7 @@ import {fadeIn} from "../../variants";
 
 const MainHeader = () => {
   return (
-    <header className="w-screen h-[calc(100vh-3rem)] grid place-items-center mt-12 pt-20">
+    <header className="w-screen h-[calc(100vh-3rem)] grid place-items-center mt-12 pt-20 z-20">
       <div className="container grid h-full grid-cols-1 md:grid-cols-2 items-center justify-between gap-24">
         <div className="mt-[-3rem]">
           <motion.h3 
