@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image';
-import React from 'react';
+import {useState} from 'react';
 
 
 
@@ -97,6 +97,12 @@ const posts = [
 ]
 
 const Blog = () => {
+
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const filteredPosts = posts.filter(post =>
+    post.title.toLowerCase().includes(searchTerm.toLowerCase())
+  );
  
   return (
     <div>  
@@ -110,18 +116,21 @@ const Blog = () => {
             neque itaque repudiandae sint, explicabo assumenda quam ratione placeat?
           </p>
           <div className="mt-6 flex w-full items-center space-x-2 md:w-1/3">
-            <input
-              className="flex h-10 w-full rounded-md border border-accent bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
-              type="text"
-              placeholder="Search Topics"
-            ></input>
-            <button
-              type="button"
-              className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-            >
-              Search
-            </button>
-          </div>
+        <input
+          className="flex h-10 w-full rounded-md border border-accent bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
+          type="text"
+          placeholder="Search Topics"
+          // Povezujemo vrijednost polja pretraživanja s našim stateom
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        ></input>
+        <button
+          type="button"
+          className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+        >
+          Search
+        </button>
+      </div>
         </div>
         <div className="mt-10 hidden w-full flex-col justify-between space-y-4 md:flex md:flex-row">
           <div className="flex w-full items-end border-b border-gray-300">
@@ -139,7 +148,7 @@ const Blog = () => {
         </div>
         {/* posts */}
         <div className="grid gap-6 gap-y-10 py-6 md:grid-cols-2 lg:grid-cols-3">
-          {posts.map((post) => (
+          {filteredPosts.map((post) => (
             <div key={post.title} className="border">
               <Image src={post.poster} className="aspect-video w-full rounded-md" alt="" width={300} height={300} />
               <div className="min-h-min p-3">
