@@ -1,14 +1,15 @@
-import ParticlesContainer from './components/ParticlesContainer';
-import MainHeader from './components/MainHeader';
-import MainServices from './components/MainServices';
-import WorkSlider from './components/WorkSlider';
-import Clients from './components/Clients';
-import MainCarousel from './components/MainCarousel';
+import dynamic from 'next/dynamic';
 
+const ParticlesContainer = dynamic(() => import('./components/ParticlesContainer'), { name: 'ParticlesContainerChunk' });
+const MainHeader = dynamic(() => import('./components/MainHeader'), { name: 'MainHeaderChunk' });
+const MainServices = dynamic(() => import('./components/MainServices'), { name: 'MainServicesChunk' });
+const WorkSlider = dynamic(() => import('./components/WorkSlider'), { name: 'WorkSliderChunk' });
+const Clients = dynamic(() => import('./components/Clients'), { name: 'ClientsChunk' });
+const MainCarousel = dynamic(() => import('./components/MainCarousel'), { name: 'MainCarouselChunk' });
 
 export default function Home() {
   return (     
-   <div className='relative'>
+    <div className='relative'>
       <ParticlesContainer />
       <MainHeader />      
       <MainServices />      
@@ -16,6 +17,5 @@ export default function Home() {
       <Clients />   
       <MainCarousel />                   
     </div>   
-   
-  )
+  );
 }
