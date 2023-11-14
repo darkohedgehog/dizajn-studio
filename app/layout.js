@@ -20,15 +20,16 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin = "true" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         
       </head>
       <body className={`${sora.className}`}>
         <Nav />
         <TopHeader />
-        <div>{children}</div>
+        {children}
         <Footer />
       </body>
     </html>
   );
 }
+
