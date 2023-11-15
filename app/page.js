@@ -9,13 +9,13 @@ const MainCarousel = dynamic(() => import('./components/MainCarousel'), { name: 
 
 export default function Home() {
   return (     
-    <div className='relative'>      
+    <div className='relative'>
+      <ParticlesContainer />
       <MainHeader />      
       <MainServices />      
       <WorkSlider />  
       <Clients />   
-      <MainCarousel />   
-      <ParticlesContainer />                
+      <MainCarousel />                   
     </div>   
   );
 }

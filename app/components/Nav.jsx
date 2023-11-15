@@ -5,11 +5,11 @@ import { usePathname } from 'next/navigation';
 // icons
 import {
   HiHome,
-  HiUser,
-  HiViewColumns,
-  HiRectangleGroup,
+  HiUser,   
   HiEnvelope,
 } from 'react-icons/hi2';
+import { TfiAnnouncement } from "react-icons/tfi";
+import { TfiGallery } from "react-icons/tfi";
 
 // nav data
 export const navData = [
@@ -23,11 +23,12 @@ export const navData = [
   },
   { name: 'blog', 
     path: '/blog', 
-    icon: <HiRectangleGroup /> 
+    icon: <TfiAnnouncement /> 
   },
   { name: 'gallery', 
     path: '/gallery', 
-    icon: <HiViewColumns /> },
+    icon: <TfiGallery />
+   },
   {
     name: 'contact',
     path: '/contact',

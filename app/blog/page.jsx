@@ -1,13 +1,16 @@
 'use client'
 import Image from 'next/image';
 import {useState} from 'react';
+import { VscSearch } from "react-icons/vsc";
+import { motion } from "framer-motion";
+import {fadeIn} from "../../variants";
 
 
 
 
 const posts = [
   {
-    category: 'Design',
+    category: 'Dizajn',
     title: '10 Tips for Crafting the Perfect UX Portfolio',
     description: 'Learn how to showcase your design skills and stand out in a crowded job market.',
     author: 'Emily Lee',
@@ -16,7 +19,7 @@ const posts = [
       '/@ DIZAJN.png',
   },
   {
-    category: 'Technology',
+    category: '3D slova',
     title: 'The Future of Mobile App Development',
     description:
       'Discover the latest trends and techniques that will shape the future of mobile app development.',
@@ -26,7 +29,7 @@ const posts = [
       '/designer1.png',
   },
   {
-    category: 'Business',
+    category: 'Reklamne folije',
     title: 'How to Launch a Successful Startup',
     description:
       'Learn the essential steps to launch a successful startup and make your dreams a reality.',
@@ -36,7 +39,7 @@ const posts = [
       '/designer2.png',
   },
   {
-    category: 'Health',
+    category: 'Foto tapet',
     title: 'The Benefits of Mindfulness Meditation',
     description:
       'Discover the scientifically proven benefits of mindfulness meditation and how it can improve your health and wellbeing.',
@@ -46,7 +49,7 @@ const posts = [
       '/designer3.png',
   },
   {
-    category: 'Education',
+    category: 'Vizit karte',
     title: 'Why Learning a Second Language is Important',
     description:
       'Explore the benefits of learning a second language and how it can improve your cognitive abilities.',
@@ -56,7 +59,7 @@ const posts = [
       '/designer4.png',
   },
   {
-    category: 'Travel',
+    category: 'Reklamne folije',
     title: 'The Best Places to Visit in Europe',
     description: 'Discover the top destinations in Europe and plan your dream vacation.',
     author: 'Alex Johnson',
@@ -65,7 +68,7 @@ const posts = [
       '/designer5.png',
   },
   {
-    category: 'Food',
+    category: 'Medijapan',
     title: 'How to Make the Perfect Cup of Coffee',
     description:
       'Learn the secrets to making the perfect cup of coffee and impress your friends and family.',
@@ -75,7 +78,7 @@ const posts = [
       '/cmana1.jpg',
   },
   {
-    category: 'Fashion',
+    category: 'Foto tapet',
     title: 'The Latest Fashion Trends for Spring 2023',
     description:
       'Discover the hottest fashion trends for the upcoming spring season and stay ahead of the curve.',
@@ -85,7 +88,7 @@ const posts = [
       '/bilbord1.png',
   },
   {
-    category: 'Sports',
+    category: 'Vizit karte',
     title: 'The Benefits of Yoga for Athletes',
     description:
       'Learn how practicing yoga can improve your athletic performance and prevent injuries.',
@@ -97,57 +100,96 @@ const posts = [
 ]
 
 const Blog = () => {
-
   const [searchTerm, setSearchTerm] = useState('');
+  const [selectedCategories, setSelectedCategories] = useState([]);
 
-  const filteredPosts = posts.filter(post =>
-    post.title.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredPosts = posts.filter((post) => {
+    const includesSearchTerm = post.title.toLowerCase().includes(searchTerm.toLowerCase());
+    const includesSelectedCategory = selectedCategories.length === 0 || selectedCategories.includes(post.category);
+    return includesSearchTerm && includesSelectedCategory;
+  });
+
+  const toggleCategory = (category) => {
+    // Ako je kategorija već odabrana, ukloni je
+    if (selectedCategories.includes(category)) {
+      setSelectedCategories((prev) => prev.filter((c) => c !== category));
+    } else {
+      // Ako je kategorija nova, postavi je i ukloni prethodno odabrane
+      setSelectedCategories([category]);
+    }
+  };
+
+
  
   return (
     <div>  
       <div className="mx-auto max-w-7xl px-2 py-20">
         <div className="flex flex-col space-y-8 pb-10 pt-12 md:pt-24 items-center justify-center">
-          <p className="flex items-center justify-center text-3xl font-bold md:text-5xl md:leading-10">
-            Resources and insights
-          </p>
-          <p className="flex items-center justify-center max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
+          <motion.h2 
+           variants={fadeIn ('down', 0.2)}
+           initial="hidden"
+           animate="show"
+           exit="hidden"
+          className="flex items-center justify-center text-3xl font-bold md:text-5xl md:leading-10 text-white">Upoznajte   <span className='text-accent mx-2'> naše </span> usluge
+          </motion.h2>
+          <motion.p 
+           variants={fadeIn ('down', 0.4)}
+           initial="hidden"
+           animate="show"
+           exit="hidden"
+          className="flex items-center justify-center max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore veritatis voluptates
             neque itaque repudiandae sint, explicabo assumenda quam ratione placeat?
-          </p>
-          <div className="mt-6 flex w-full items-center space-x-2 md:w-1/3">
+          </motion.p>
+          <motion.div 
+           variants={fadeIn ('down', 0.6)}
+           initial="hidden"
+           animate="show"
+           exit="hidden"
+          className="mt-6 flex w-full items-center space-x-2 md:w-1/3">
         <input
-          className="flex h-10 w-full rounded-md border border-accent bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
+          className="flex h-10 w-full rounded-md border border-zinc-600 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:border-red-600 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
           type="text"
-          placeholder="Search Topics"
+          placeholder="Pretražite temu"
           // Povezujemo vrijednost polja pretraživanja s našim stateom
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         ></input>
         <button
           type="button"
-          className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+          className="rounded-md bg-[rgba(89,65,169,0.40)] text-sky-400 border border-sky-400 border-b-4 px-3 py-2 h-[45px] w-[150px] text-sm font-semibold shadow-sm hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none group animate-pulse duration-300"
         >
-          Search
+         <VscSearch className='flex items-center justify-center h-6 w-6 mx-6' />
         </button>
-      </div>
+      </motion.div>
         </div>
-        <div className="mt-10 hidden w-full flex-col justify-between space-y-4 md:flex md:flex-row">
-          <div className="flex w-full items-end border-b border-gray-300">
-            {['Design', 'Product', 'Software Engineering', 'Customer Success'].map(
-              (filter, index) => (
-                <div
-                  className="cursor-pointer px-4 py-2 text-base font-semibold leading-normal first:border-b-2 first:border-black"
-                  key={filter}
-                >
-                  {filter}
-                </div>
-              )
-            )}
+        <motion.div 
+         variants={fadeIn ('up', 0.2)}
+         initial="hidden"
+         animate="show"
+         exit="hidden"
+        className="mt-10 hidden w-full flex-col justify-between space-y-4 md:flex md:flex-row">
+        <div className="flex w-full items-end border-b border-gray-300">
+        {['Dizajn', '3D slova', 'Reklamne folije', 'Foto tapet'].map((filter) => (
+          <div
+            key={filter}
+            className={`cursor-pointer px-4 py-2 text-base font-semibold leading-normal ${
+              selectedCategories.includes(filter) ? 'text-accent' : 'text-gray-300'
+            }`}
+            onClick={() => toggleCategory(filter)}
+          >
+            {filter}
           </div>
-        </div>
+        ))}
+       </div>
+        </motion.div>
         {/* posts */}
-        <div className="grid gap-6 gap-y-10 py-6 md:grid-cols-2 lg:grid-cols-3">
+        <motion.div 
+         variants={fadeIn ('up', 0.4)}
+         initial="hidden"
+         animate="show"
+         exit="hidden"
+        className="grid gap-6 gap-y-10 py-6 md:grid-cols-2 lg:grid-cols-3">
           {filteredPosts.map((post) => (
             <div key={post.title} className="border">
               <Image src={post.poster} className="aspect-video w-full rounded-md" alt="" width={300} height={300} />
@@ -170,30 +212,7 @@ const Blog = () => {
               </div>
             </div>
           ))}
-        </div>
-        <div className="w-full border-t border-gray-300">
-          <div className="mt-2 flex items-center justify-between">
-            <div className="hidden md:block">
-              <p>
-                showing <strong>1</strong> to <strong>10</strong> of <strong>20</strong> results
-              </p>
-            </div>
-            <div className="space-x-2">
-              <button
-                type="button"
-                className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-              >
-                &larr; Previous
-              </button>
-              <button
-                type="button"
-                className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-              >
-                Next &rarr;
-              </button>
-            </div>
-          </div>
-        </div>
+        </motion.div>        
       </div>      
     </div>
   );
