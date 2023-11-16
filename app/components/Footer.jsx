@@ -4,19 +4,12 @@ import {FiFacebook, FiInstagram} from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <div className="bg-secondary bottom-0 w-full pb-20 relative">
-      <footer className="bg-secondary mx-8">
+    <div className="bg-transparent bottom-0 w-full pb-20 relative">
+      <footer className="bg-[rgba(65,47,123,0.30)] w-full">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
               <Link href="/" className="flex items-center">
-                <Image
-                  src={"/logo.svg"}
-                  width={80}
-                  height={40}
-                  className="h-8 mr-3"
-                  alt="@ Dizajn Logo"
-                />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                   @ Dizajn
                 </span>
@@ -112,7 +105,7 @@ const Footer = () => {
             </div>            
           </div>
           <div className="flex flex-col items-center justify-center sm:flex sm:items-center sm:justify-between text-gray-500 hover:text-gray-900 dark:hover:text-white hover:underline mt-4 bottom-0 mx-auto">
-              <Link href="/">reklame-dizajn.xml</Link>
+              <Link href="/sitemap.xml">sitemap.xml</Link>
             </div>
         </div>
       </footer>
