@@ -8,6 +8,7 @@ import {fadeIn} from "../../variants";
 
 
 
+
 const posts = [
   {
     category: 'Dizajn',
@@ -213,7 +214,7 @@ const Blog = () => {
             </div>
           ))}
         </motion.div>        
-      </div>      
+      </div>            
     </div>
   );
 }
