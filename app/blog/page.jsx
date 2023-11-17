@@ -4,6 +4,7 @@ import {useState} from 'react';
 import { VscSearch } from "react-icons/vsc";
 import { motion } from "framer-motion";
 import {fadeIn} from "../../variants";
+import Link from 'next/link';
 
 
 
@@ -214,7 +215,12 @@ const Blog = () => {
             </div>
           ))}
         </motion.div>        
-      </div>            
+      </div>
+      <div className='flex items-center justify-center my-20 pb-16'>
+        <Link href="/posts" className="bg-[rgba(89,65,169,0.40)] text-sky-400 border border-sky-400 border-b-4 h-[80px] w-[200px] flex items-center justify-center text-xl font-bold overflow-hidden absolute px-4 py-2 rounded-3xl hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none group animate-pulse duration-300"><span className="bg-sky-400 shadow-sky-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)] items-center justify-center"></span> Više o ...        
+        
+        </Link>
+        </div>            
     </div>
   );
 }

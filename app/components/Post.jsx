@@ -10,7 +10,7 @@ const builder = imageUrlBuilder(client);
 export default function Post({ post }) {
   return (
     <main className="container mx-auto prose prose-lg py-36 mb-56">
-      <h1>{post.title}</h1>
+      <h1>{post && post.title}</h1>
       {post?.mainImage ? (
         <Image
           className="float-left m-0 w-1/3 mr-4 rounded-lg"

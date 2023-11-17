@@ -5,7 +5,7 @@ export async function getProjects() {
       projectId: "odnncdrb",
       dataset: 'production',
       apiVersion: '2023-11-16',
-      useCdn: true,
+      useCdn: false,
     });
     
     return client.fetch(
