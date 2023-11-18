@@ -140,8 +140,7 @@ const Blog = () => {
            animate="show"
            exit="hidden"
           className="flex items-center justify-center max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore veritatis voluptates
-            neque itaque repudiandae sint, explicabo assumenda quam ratione placeat?
+             Osvetlite svoj put ka uspehu i neka vaša reklama bude zvezda koja sija u noći biznisa!
           </motion.p>
           <motion.div 
            variants={fadeIn ('down', 0.6)}
@@ -149,15 +148,15 @@ const Blog = () => {
            animate="show"
            exit="hidden"
           className="mt-6 flex w-full items-center space-x-2 md:w-1/3">
-        <input
+         <input
           className="flex h-10 w-full rounded-md border border-zinc-600 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:border-red-600 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
           type="text"
           placeholder="Pretražite temu"
           // Povezujemo vrijednost polja pretraživanja s našim stateom
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-        ></input>
-        <button
+         ></input>
+         <button
           type="button"
           className="rounded-md bg-[rgba(89,65,169,0.40)] text-sky-400 border border-sky-400 border-b-4 px-3 py-2 h-[45px] w-[150px] text-sm font-semibold shadow-sm hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none group animate-pulse duration-300"
         >

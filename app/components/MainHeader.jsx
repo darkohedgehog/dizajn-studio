@@ -16,7 +16,7 @@ const MainHeader = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="my-10 text-white font-normal">Istaknite svoje poslovanje
+          className="my-10 text-gray-300 font-normal">Istaknite svoje poslovanje
          </motion.h3>
           <motion.h2 
           variants={fadeIn ('down', 0.4)}
@@ -31,7 +31,7 @@ const MainHeader = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="my-10 text-lg md:text-xl">
+          className="my-10 text-lg md:text-xl text-gray-300">
             Pustite vaše ideje da zasijaju. Kvalitetna izrada, inovativni dizajn i magična svetlost koja će vas izdvojiti u odnosu na druge 
           </motion.p>
          <motion.div

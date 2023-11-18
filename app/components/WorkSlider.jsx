@@ -106,8 +106,8 @@ const WorkSlider = () => {
                         ref={ref}
                         className="h2"
                     >
-                        Captivating <span className="text-accent">stories</span> birth
-                        magnificent designs.
+                        Zadivljujuće <span className="text-accent">priče</span> rađaju
+                        magičan dizajn.
                     </motion.h2>
                    
                 </div>

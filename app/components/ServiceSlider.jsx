@@ -17,27 +17,27 @@ import {
 const serviceData = [
   {
     icon: <RxCrop />,
-    title: 'Branding',
+    title: 'Brendiranje',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
     icon: <RxPencil2 />,
-    title: 'Design',
+    title: 'Dizajn',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
     icon: <RxDesktop />,
-    title: 'Development',
+    title: 'Svetleće reklame',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
     icon: <RxReader />,
-    title: 'Copywriting',
+    title: 'Reklamne folije',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
     icon: <RxRocket />,
-    title: 'SEO',
+    title: '3D slova',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
 ];
@@ -72,9 +72,9 @@ const serviceData = [
           {/* icon */}
           <div className="text-4xl text-accent mb-4">{item.icon}</div>
           {/* title & desc */}
-          <div className="mb-8">
+          <div className="mb-8 text-gray-300">
             <div className="mb-2 text-lg">{item.title}</div>
-            <p className="max-w-[35px] leading-normal">{item.description}</p>
+            <p className="max-w-[35px] leading-normal text-gray-400">{item.description}</p>
           </div>
           {/* arrow */}
           <div className="text-3xl">

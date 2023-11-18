@@ -15,7 +15,7 @@ async function sanityFetch({ query, params = DEFAULT_PARAMS, tags = DEFAULT_TAGS
   const isDevelopment = process.env.NODE_ENV === "development";
 
   return client
-    .withConfig({ useCdn: true })
+    .withConfig({ useCdn: false })
     .fetch(query, params, {
       cache: isDevelopment || isDraftMode ? undefined : "force-cache",
       ...(isDraftMode && {

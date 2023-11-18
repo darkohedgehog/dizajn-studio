@@ -32,7 +32,7 @@ const Clients = () => {
           animate={isComponentVisible ? "show" : "hidden"}
           exit="hidden"
           ref={ref} 
-          className="h2 mb-8 xl:mb-0">What clients <span className="text-accent">say.</span>
+          className="h2 mb-8 xl:mb-0">Upoznajte naše <span className="text-accent">klijente.</span>
           </motion.h2>
          {/* slider */}
           <motion.div 

@@ -101,7 +101,7 @@ const Contact = () => {
              animate='show'
              exit='hidden'
              className="h2 text-center mb-12">
-              Let`s <span className="text-accent">connect.</span>
+              Ostanimo u <span className="text-accent">kontaktu.</span>
             </motion.h2>
             {/* form */}
             <motion.form 
@@ -117,7 +117,7 @@ const Contact = () => {
               <div className="flex gap-x-6 w-full">
                <input 
                type="text" 
-               placeholder="name"
+               placeholder="Vaše ime"
                required
                onChange={handleName}
                value={clientName}
@@ -140,7 +140,7 @@ const Contact = () => {
               </div>
               <input 
               type="text"
-               placeholder="subject" 
+               placeholder="Predmet" 
                onChange={handleSubject}
                value={subject}
                className={`${
@@ -149,7 +149,7 @@ const Contact = () => {
                   : "border-zinc-600 focus-visible:border-designColor"
               } input`} />
               <textarea 
-              placeholder="message" 
+              placeholder="Vaša poruka" 
               required
               onChange={handleMessages}
               value={messages}

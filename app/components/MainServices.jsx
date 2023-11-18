@@ -37,7 +37,7 @@ const MainServices = () => {
                ref={ref} 
               className=" h2 xl:mt-8"
             >
-              My services <span className="text-accent">.</span>
+              Naše usluge <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
                variants={fadeIn("right", 0.4)}
@@ -45,12 +45,9 @@ const MainServices = () => {
                animate={isComponentVisible ? "show" : "hidden"}
                exit="hidden"
                ref={ref} 
-              className="mb-4 max-w-[400px] mx-auto lg:mx-0"
+              className="mb-4 max-w-[400px] mx-auto lg:mx-0 text-gray-300"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              imperdiet enim velit, sit amet laoreet est dapibus a. Class
-              aptent taciti sociosqu ad litora torquent per conubia nostra,
-              per inceptos himenaeos. Nullam eu aliquam metus.
+              Dobrodošli u svet dizajna reklama koji ne ostavlja nikoga ravnodušnim! Upoznajte naše usluge..
             </motion.p>
           </div>
           {/* slider */}

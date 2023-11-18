@@ -31,7 +31,7 @@ const About = () => {
          animate= "show"
          exit="hidden"
          className="h2 mb-5">
-          Captivating <span className="text-accent">stories</span> birth magnificent designs.
+          Kada <span className="text-accent">strast</span> susreće inovaciju.
     </motion.h2>
         {/* counters */}
         <motion.div 
@@ -46,8 +46,8 @@ const About = () => {
               <div className="text-2xl xl:text-4xl font-semibold text-accent mb-2">
                 <CountUp key={0} start={0} end={19} duration={5} />+
               </div>
-              <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                Years of experience
+              <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[120px]">
+                Godina iskustva
                 </div>
             </div>
            {/* clients */}
@@ -56,7 +56,7 @@ const About = () => {
                 <CountUp key={1} start={0} end={200} duration={5} />+
               </div>
               <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                Satisfied clients
+                zadovoljnih klijenata
                 </div>
             </div>
             {/* projects */}
@@ -64,8 +64,8 @@ const About = () => {
               <div className="text-2xl xl:text-4xl font-semibold text-accent mb-2">
                 <CountUp key={3} start={0} end={300} duration={5} />+
               </div>
-              <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                Finished projects
+              <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[110px]">
+                Završenih projekata
                 </div>
             </div>
           </div>
