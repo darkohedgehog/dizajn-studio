@@ -6,7 +6,7 @@ const siteMetadata = {
     description: 'Dizajn i izdrada reklama, 3D slova, foto tapeta i reklamnih folija',
     language: 'sr-en',  
     theme: 'system', // system, dark or light  
-    siteUrl: 'http://localhost:3000/', // your website URL
+    siteUrl: 'https://reklame-dizajn.vercel.app/', // your website URL
     siteLogo: '/logo_firme-removebg-preview.png', 
     socialBanner: '/social-banner.png', // add social banner in the public folder   
     email: 'nino05dizajn@gmail.com',     
