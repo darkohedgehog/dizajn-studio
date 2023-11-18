@@ -9,6 +9,8 @@ import React, { useState, useEffect } from "react";
 import { useInView } from 'react-intersection-observer';
 import CountUp from "react-countup";
 
+
+
 const About = () => {
   const [isComponentVisible, setComponentVisible] = useState(false);  
 

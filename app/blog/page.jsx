@@ -21,7 +21,7 @@ const posts = [
       '/@ DIZAJN.png',
   },
   {
-    category: '3D slova',
+    category: 'Dizajn',
     title: 'The Future of Mobile App Development',
     description:
       'Discover the latest trends and techniques that will shape the future of mobile app development.',
@@ -31,7 +31,7 @@ const posts = [
       '/designer1.png',
   },
   {
-    category: 'Reklamne folije',
+    category: 'Dizajn',
     title: 'How to Launch a Successful Startup',
     description:
       'Learn the essential steps to launch a successful startup and make your dreams a reality.',
@@ -41,7 +41,7 @@ const posts = [
       '/designer2.png',
   },
   {
-    category: 'Foto tapet',
+    category: '3D slova',
     title: 'The Benefits of Mindfulness Meditation',
     description:
       'Discover the scientifically proven benefits of mindfulness meditation and how it can improve your health and wellbeing.',
@@ -51,26 +51,26 @@ const posts = [
       '/designer3.png',
   },
   {
-    category: 'Vizit karte',
+    category: '3D slova',
     title: 'Why Learning a Second Language is Important',
     description:
       'Explore the benefits of learning a second language and how it can improve your cognitive abilities.',
     author: 'Maria Rodriguez',
     date: '22 March 2023',   
     poster:
-      '/designer4.png',
+      '/gallery8.jpg',
   },
   {
-    category: 'Reklamne folije',
+    category: '3D slova',
     title: 'The Best Places to Visit in Europe',
     description: 'Discover the top destinations in Europe and plan your dream vacation.',
     author: 'Alex Johnson',
     date: '19 March 2023',    
     poster:
-      '/designer5.png',
+      '/norway.jpg',
   },
   {
-    category: 'Medijapan',
+    category: 'Reklamne folije',
     title: 'How to Make the Perfect Cup of Coffee',
     description:
       'Learn the secrets to making the perfect cup of coffee and impress your friends and family.',
@@ -80,7 +80,7 @@ const posts = [
       '/cmana1.jpg',
   },
   {
-    category: 'Foto tapet',
+    category: 'Reklamne folije',
     title: 'The Latest Fashion Trends for Spring 2023',
     description:
       'Discover the hottest fashion trends for the upcoming spring season and stay ahead of the curve.',
@@ -90,7 +90,7 @@ const posts = [
       '/bilbord1.png',
   },
   {
-    category: 'Vizit karte',
+    category: 'Reklamne folije',
     title: 'The Benefits of Yoga for Athletes',
     description:
       'Learn how practicing yoga can improve your athletic performance and prevent injuries.',
@@ -98,6 +98,36 @@ const posts = [
     date: '10 March 2023',    
     poster:
       '/bilbord2.png',
+  },
+  {
+    category: 'Foto tapet',
+    title: 'The Benefits of Yoga for Athletes',
+    description:
+      'Learn how practicing yoga can improve your athletic performance and prevent injuries.',
+    author: 'Michael Johnson',
+    date: '10 March 2023',    
+    poster:
+      '/Fototapet2.jpg',
+  },
+  {
+    category: 'Foto tapet',
+    title: 'The Benefits of Yoga for Athletes',
+    description:
+      'Learn how practicing yoga can improve your athletic performance and prevent injuries.',
+    author: 'Michael Johnson',
+    date: '10 March 2023',    
+    poster:
+      '/fototapet4.png',
+  },
+  {
+    category: 'Foto tapet',
+    title: 'The Benefits of Yoga for Athletes',
+    description:
+      'Learn how practicing yoga can improve your athletic performance and prevent injuries.',
+    author: 'Michael Johnson',
+    date: '10 March 2023',    
+    poster:
+      '/fototapet5.png',
   },
 ]
 

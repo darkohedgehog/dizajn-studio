@@ -77,7 +77,7 @@ const Contact = () => {
         message: messages,
       });
       setSuccessMsg(
-        `Hello dear ${clientName}, Your messages has been sent successfully. Thank you for your time!`
+        `Poštovani ${clientName}, Vaša poruka je uspešno poslana. Hvala Vam na izdvojenom vremenu!`
       );
       setClientName("");
       setEmail("");

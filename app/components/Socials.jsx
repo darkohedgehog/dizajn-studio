@@ -7,16 +7,16 @@ import {AiOutlineMail, AiOutlinePhone} from "react-icons/ai";
 const Socials = () => {
     return (
       <div className="flex items-center gap-x-5 text-lg">
-        <Link href={""} className="hover:text-accent transition-all duration-300">
+        <Link href={"https://www.facebook.com/szfr.dizajn"} target="blank" className="hover:text-accent transition-all duration-300">
         <FaFacebookF />
         </Link>
-        <Link href={""} className="hover:text-accent transition-all duration-300"> 
+        <Link href={"https://www.instagram.com/ninoslavjanackovic/"} target="blank" className="hover:text-accent transition-all duration-300"> 
         <FaInstagram />
         </Link>
-        <Link href={""} className="hover:text-accent transition-all duration-300">
+        <Link href={"mailto:nino05dizajn@gmail.com"} className="hover:text-accent transition-all duration-300">
         <AiOutlineMail />
         </Link>
-        <Link href={""} className="hover:text-accent transition-all duration-300">
+        <Link href={"tel:+381641706370"} className="hover:text-accent transition-all duration-300">
         <AiOutlinePhone />
         </Link>
 

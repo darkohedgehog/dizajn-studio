@@ -5,7 +5,7 @@ import { draftMode } from "next/headers";
 import PreviewPosts from "../components/PreviewPosts";
 import PreviewProvider from "../components/PreviewProvider";
 
-export default async function Home() {
+export default async function Post() {
   const posts = await sanityFetch({ query: postsQuery });
   const isDraftMode = draftMode().isEnabled;
 
