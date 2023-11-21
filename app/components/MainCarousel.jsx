@@ -1,12 +1,12 @@
 "use client"
 import React, { useEffect, useState, useRef } from "react";
-import IMG1 from "../../public/gallery1.jpg";
+import IMG1 from "../../public/gallery12.jpg";
 import IMG2 from "../../public/gallery2.jpg";
-import IMG3 from "../../public/gallery3.jpg";
-import IMG4 from "../../public/gallery4.jpg";
+import IMG3 from "../../public/gallery13.jpg";
+import IMG4 from "../../public/gallery14.jpg";
 import IMG5 from "../../public/gallery5.jpg";
 import IMG6 from "../../public/gallery6.jpg";
-import IMG7 from "../../public/gallery7.jpg";
+import IMG7 from "../../public/gallery15.jpg";
 import IMG8 from "../../public/gallery8.jpg";
 import Image from "next/image";
 

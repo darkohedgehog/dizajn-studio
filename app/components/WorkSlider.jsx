@@ -16,16 +16,16 @@ const aboutWork = [
         title: "Naši radovi",
         info: [
             {
-                path: "/bilbord1.png",
+                path: "/brand1.JPG",
                 name: "Bilbord",
             },
             {
-                path: "/bilbord2.png",
+                path: "/svetleca6.JPG",
                 name: "Bilbord2",
             },
            
             {
-                path: "/bilbord4.png",
+                path: "/3dslova10.JPG",
                 name: "Bilbord4",
             },
         ],
@@ -37,7 +37,10 @@ const aboutWork = [
                 path: "/norway.jpg",
             },
             {
-                path: "/cmana1.jpg",
+                path: "/3dslova1.jpg",
+            },
+            {
+                path: "/3dslova2.jpg",
             },
         ],
     },
@@ -63,15 +66,15 @@ const aboutWork = [
         info: [
             {
 
-                path: "/designer1.png",
+                path: "/folija1.jpg",
             },
             {
 
-                path: "/designer2.png",
+                path: "/folija2.jpg",
             },
             {
 
-                path: "/designer3.png",
+                path: "/folija28.jpg",
             },
         ],
     },

@@ -1,6 +1,6 @@
 "use client"
 import StoryImage from "../../public/hedgehog1000_a_portfolio_website_cover_photo_for_a_graphic_desi_cabe4185-2624-4a10-b4ef-e061d7799d30.png";
-import VisionImage from "../../public/NorProo_Norway.jpg";
+import VisionImage from "../../public/vision2.png";
 import MissionImage from "../../public/bilbord3.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -96,13 +96,13 @@ const About = () => {
           className="grid grid-cols-1">
             <h1 className="mb-8">Naša priča</h1>
             <p className="mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, maxime voluptates numquam ducimus nam at sequi inventore libero atque placeat?
+            Dobrodošli u naš svet, gde svetlo ide dalje od reklama, a boje nisu samo naša strast, već i naš način izražavanja. Naša priča počinje sa ljubavlju prema dizajnu i željom da stvorimo nešto jedinstveno.
             </p>
             <p className="mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, adipisci iure rem voluptate qui corporis?
+            Sa skromnim počecima, evoluirali smo u kreativnu radionicu gde se ideje pretvaraju u stvarnost. Svaki projekat za nas je priča koja se razvija, a svaki klijent postaje deo te priče.
             </p>
             <p className="mb-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quos.
+            Zajedno gradimo svetlo i boje koje ostavljaju traga.
             </p>
           </motion.div>
         </div>
@@ -119,10 +119,10 @@ const About = () => {
           className="grid">
             <h1 className="mb-8">Naša vizija</h1>
             <p className="mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, maxime voluptates numquam ducimus nam at sequi inventore libero atque placeat?
+            Naša vizija je jednostavna - transformisati prostor i komunicirati emocije kroz dizajn. Želimo da svaki projekat bude izraz kreativnosti i inovacije, da inspiriše ljude i da ostavi snažan vizuelni utisak. 
             </p>
             <p className="mb-2">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, adipisci iure rem voluptate qui corporis?
+            Vizualni identitet nije samo sredstvo prepoznavanja; to je jezik koji govori o vrednostima i karakteru. Sa svakim projektom, želimo postaviti standarde i pružiti iskustvo koje prevazilazi očekivanja.
             </p>
           </motion.div>
           <motion.div 
@@ -163,13 +163,13 @@ const About = () => {
           className="grid grid-cols-1">
             <h1 className="mb-8">Naša misija</h1>
             <p className="mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, maxime voluptates numquam ducimus nam at sequi inventore libero atque placeat?
+            Naša misija je jasna - pružiti klijentima ne samo proizvode, već i iskustvo koje će se pamćenje. Radimo sa strašću i predanošću kako bismo doneli inovativne dizajne koji se ističu.
             </p>
             <p className="mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, adipisci iure rem voluptate qui corporis?
+            Kroz svetleće reklame, 3D slova, reklamne folije i foto tapete, želimo transformisati svaki prostor u priču koja inspiriše. 
             </p>
             <p className="mb-10">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quos.
+            Naša misija je stvarati vizuelne priče koje se pamte, jer verujemo da dizajn ima moć da transformiše svet oko nas.
             </p>
           </motion.div>
         </div>

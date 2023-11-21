@@ -34,10 +34,7 @@ const Gallery = () => {
                 exit="hidden"
                 className="mb-4 max-w-[400px] mx-auto lg:mx-0"
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                imperdiet enim velit, sit amet laoreet est dapibus a. Class
-                aptent taciti sociosqu ad litora torquent per conubia nostra,
-                per inceptos himenaeos. Nullam eu aliquam metus.
+                Zavirite u naš svet kreativnosti, gde se susreću moderna estetika i inovativni dizajn. Svaki slajd otkriva raznovrsnost naših radova. Otkrijte lepotu koja se krije iza svakog slajda. Dođite, istražite, i dopustite da naša galerija bude izvor vaše kreativne nadahnutosti.
               </motion.p>
             </div>
             {/* slider */}

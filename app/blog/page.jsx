@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image';
-import {useState} from 'react';
+import { useState, useMemo } from 'react';
 import { VscSearch } from "react-icons/vsc";
 import { motion } from "framer-motion";
 import {fadeIn} from "../../variants";
@@ -13,144 +13,140 @@ import Link from 'next/link';
 const posts = [
   {
     category: 'Dizajn',
-    title: '10 Tips for Crafting the Perfect UX Portfolio',
-    description: 'Learn how to showcase your design skills and stand out in a crowded job market.',
-    author: 'Emily Lee',
+    title: 'Vaša priča, naša kreacija',
+    description: 'U svetu dizajna koji svetli, svaka naša kreacija je priča koja osvetljava prostor.',
+    author: 'Ninoslav Janaćković',
     date: '3 April 2023',   
     poster:
-      '/@ DIZAJN.png',
+      '/design1.png',
   },
   {
     category: 'Dizajn',
-    title: 'The Future of Mobile App Development',
+    title: 'Reklame su nosioci indetiteta vašeg brenda',
     description:
-      'Discover the latest trends and techniques that will shape the future of mobile app development.',
-    author: 'John Smith',
+      'Oblikujemo svetleće reklame koje nisu samo vizuelno zadivljujuće, već i nosioci identiteta vašeg brenda.',
+    author: 'Ninoslav Janaćković',
     date: '1 April 2023',   
     poster:
       '/designer1.png',
   },
   {
     category: 'Dizajn',
-    title: 'How to Launch a Successful Startup',
+    title: 'Dizajn koji transformiše izloge',
     description:
-      'Learn the essential steps to launch a successful startup and make your dreams a reality.',
-    author: 'Sarah Brown',
-    date: '28 March 2023',    
+      'Naš dizajn folija za izloge transformiše prozore u platna na kojima se igra svetlost, stvarajući privlačne vizualne priče koje privlače poglede.',
+    author: 'Ninoslav Janaćković',
+    date: '28 Mart 2023',    
     poster:
       '/designer2.png',
   },
   {
-    category: '3D slova',
-    title: 'The Benefits of Mindfulness Meditation',
+    category: '3D-slova',
+    title: 'Dobrodošli u svet dimenzija i izražajnosti',
     description:
-      'Discover the scientifically proven benefits of mindfulness meditation and how it can improve your health and wellbeing.',
-    author: 'David Kim',
-    date: '25 March 2023',   
+      '3D slova su više od običnih znakova; ona su suština identiteta.',
+    author: 'Ninoslav Janaćković',
+    date: '25 Mart 2023',   
     poster:
-      '/designer3.png',
+      '/3dslova2.JPG',
   },
   {
-    category: '3D slova',
-    title: 'Why Learning a Second Language is Important',
+    category: '3D-slova',
+    title: 'Dobrodošli u čarobni svet naših 3D slova',
     description:
-      'Explore the benefits of learning a second language and how it can improve your cognitive abilities.',
-    author: 'Maria Rodriguez',
-    date: '22 March 2023',   
+      'Naša 3D slova stvaraju impozantne vizuelne efekte, ističući vaš brend na način koji je teško zaboraviti.',
+    author: 'Ninoslav Janaćković',
+    date: '22 Maj 2023',   
     poster:
-      '/gallery8.jpg',
+      '/3dslova10.JPG',
   },
   {
-    category: '3D slova',
-    title: 'The Best Places to Visit in Europe',
-    description: 'Discover the top destinations in Europe and plan your dream vacation.',
-    author: 'Alex Johnson',
-    date: '19 March 2023',    
+    category: '3D-slova',
+    title: 'Dizajn i preciznost izrade spojeni su u svakom slovu',
+    description: 'Bilo da želite naglasiti logo, ime firme ili poruku, naša 3D slova pružaju trodimenzionalni utisak koji se ističe u svakom okruženju.',
+    author: 'Ninoslav Janaćković',
+    date: '19 Jun 2023',    
     poster:
-      '/norway.jpg',
+      '/gallery11.jpg',
   },
   {
-    category: 'Reklamne folije',
-    title: 'How to Make the Perfect Cup of Coffee',
+    category: 'Reklamne-folije',
+    title: 'Dobrodošli u svet dinamičnog brendiranja i neograničenih mogućnosti!',
     description:
-      'Learn the secrets to making the perfect cup of coffee and impress your friends and family.',
-    author: 'Thomas Lee',
-    date: '16 March 2023',    
+      'Reklamne folije za izloge transformišu prozore u platna koja privlače poglede.',
+    author: 'Ninoslav Janaćković',
+    date: '10 Septembar 2023',    
     poster:
-      '/cmana1.jpg',
+      '/folija27.JPG',
   },
   {
-    category: 'Reklamne folije',
-    title: 'The Latest Fashion Trends for Spring 2023',
+    category: 'Reklamne-folije',
+    title: 'Istaknite vaše izloge i vozila',
     description:
-      'Discover the hottest fashion trends for the upcoming spring season and stay ahead of the curve.',
-    author: 'Jessica Kim',
-    date: '13 March 2023',   
+      'Naše reklamne folije za izloge i vozila nisu samo materijali - one su vizuelni prikaz vaše priče u pokretu.',
+    author: 'Ninoslav Janaćković',
+    date: '13 Avgust 2023',   
     poster:
-      '/bilbord1.png',
+      '/folija39.JPG',
   },
   {
-    category: 'Reklamne folije',
-    title: 'The Benefits of Yoga for Athletes',
+    category: 'Reklamne-folije',
+    title: 'Naše reklamne folije nisu samo nalepnice ',
     description:
-      'Learn how practicing yoga can improve your athletic performance and prevent injuries.',
-    author: 'Michael Johnson',
-    date: '10 March 2023',    
+      'Od jednostavnih i elegantnih do smelih i šarenih dizajna, prilagođavamo folije tako da odražavaju dušu vašeg poslovanja dok se krećete gradskim ulicama.',
+    author: 'Ninoslav Janaćković',
+    date: '10 Oktobar 2023',    
     poster:
-      '/bilbord2.png',
+      '/folija42.JPG',
   },
   {
-    category: 'Foto tapet',
-    title: 'The Benefits of Yoga for Athletes',
+    category: 'Foto-tapet',
+    title: 'Dobrodošli u našu kolekciju foto tapeta',
     description:
-      'Learn how practicing yoga can improve your athletic performance and prevent injuries.',
-    author: 'Michael Johnson',
-    date: '10 March 2023',    
+      'Svaki detalj, svaka nijansa boje pažljivo je odabrana kako bi stvorila harmoniju između prostora i umetnosti',
+    author: 'Ninoslav Janaćković',
+    date: '10 Mart 2023',    
     poster:
-      '/Fototapet2.jpg',
+      '/fototapet6.png',
   },
   {
-    category: 'Foto tapet',
-    title: 'The Benefits of Yoga for Athletes',
+    category: 'Foto-tapet',
+    title: 'Ovde umetnost postaje deo vašeg svakodnevnog prostora',
     description:
-      'Learn how practicing yoga can improve your athletic performance and prevent injuries.',
-    author: 'Michael Johnson',
-    date: '10 March 2023',    
+      'Naše foto tapete nisu samo slike; one su priče koje oživljavaju vaš dom ili poslovni prostor.',
+    author: 'Ninoslav Janaćković',
+    date: '10 Februar 2023',    
     poster:
       '/fototapet4.png',
   },
   {
-    category: 'Foto tapet',
-    title: 'The Benefits of Yoga for Athletes',
+    category: 'Foto-tapet',
+    title: 'Svaki zid postaje vlastiti pečat vaše jedinstvenosti',
     description:
-      'Learn how practicing yoga can improve your athletic performance and prevent injuries.',
-    author: 'Michael Johnson',
-    date: '10 March 2023',    
+      'Uz naše foto tapete, svaka soba postaje platno na kojem se ispisuje priča vašeg života.',
+    author: 'Ninoslav Janaćković',
+    date: '15 Mart 2023',    
     poster:
       '/fototapet5.png',
   },
 ]
 
+
 const Blog = () => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedCategories, setSelectedCategories] = useState([]);
+  const [selectedCategories] = useState([]);
 
-  const filteredPosts = posts.filter((post) => {
-    const includesSearchTerm = post.title.toLowerCase().includes(searchTerm.toLowerCase());
-    const includesSelectedCategory = selectedCategories.length === 0 || selectedCategories.includes(post.category);
-    return includesSearchTerm && includesSelectedCategory;
-  });
-
-  const toggleCategory = (category) => {
-    // Ako je kategorija već odabrana, ukloni je
-    if (selectedCategories.includes(category)) {
-      setSelectedCategories((prev) => prev.filter((c) => c !== category));
-    } else {
-      // Ako je kategorija nova, postavi je i ukloni prethodno odabrane
-      setSelectedCategories([category]);
-    }
-  };
-
+  const filteredPosts = useMemo(() => {
+    return posts.filter((post) => {
+      const includesSearchTerm = post.title.toLowerCase().includes(searchTerm.toLowerCase());
+      const includesSelectedCategory =
+        selectedCategories.length === 0 ||
+        selectedCategories.some((selectedCategory) =>
+          post.category.toLowerCase().includes(selectedCategory.toLowerCase())
+        );
+      return includesSearchTerm && includesSelectedCategory;
+    });
+  }, [searchTerm, selectedCategories]);
 
  
   return (
@@ -194,26 +190,7 @@ const Blog = () => {
         </button>
       </motion.div>
         </div>
-        <motion.div 
-         variants={fadeIn ('up', 0.2)}
-         initial="hidden"
-         animate="show"
-         exit="hidden"
-        className="mt-10 hidden w-full flex-col justify-between space-y-4 md:flex md:flex-row">
-        <div className="flex w-full items-end border-b border-gray-300">
-        {['Dizajn', '3D slova', 'Reklamne folije', 'Foto tapet'].map((filter) => (
-          <div
-            key={filter}
-            className={`cursor-pointer px-4 py-2 text-base font-semibold leading-normal ${
-              selectedCategories.includes(filter) ? 'text-accent' : 'text-gray-300'
-            }`}
-            onClick={() => toggleCategory(filter)}
-          >
-            {filter}
-          </div>
-        ))}
-       </div>
-        </motion.div>
+        
         {/* posts */}
         <motion.div 
          variants={fadeIn ('up', 0.4)}

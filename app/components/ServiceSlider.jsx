@@ -18,27 +18,27 @@ const serviceData = [
   {
     icon: <RxCrop />,
     title: 'Brendiranje',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Više od stvaranja logotipa',
   },
   {
     icon: <RxPencil2 />,
     title: 'Dizajn',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Dizajn koji privlači pažnju',
   },
   {
     icon: <RxDesktop />,
     title: 'Svetleće reklame',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Budite u centru pažnje',
   },
   {
     icon: <RxReader />,
     title: 'Reklamne folije',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Čarolija koja transformiše izloge',
   },
   {
     icon: <RxRocket />,
     title: '3D slova',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Stvaranje identiteta u prostoru.',
   },
 ];
 
