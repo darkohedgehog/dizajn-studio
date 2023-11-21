@@ -32,15 +32,15 @@ const gallerySlides = {
       images: [
         {
           title: "title",
-          path: "/NorProo_Norway.jpg",
+          path: "/NorProo_Norway.JPG",
         },
         {
           title: "title",
-          path: "/3dslova1.jpg",
+          path: "/3dslova1.JPG",
         },
         {
           title: "title",
-          path: "/medijapan2.jpg",
+          path: "/medijapan2.JPG",
         },
         {
           title: "title",
@@ -52,19 +52,19 @@ const gallerySlides = {
       images: [
         {
           title: "title",
-          path: "/folija6.jpg",
+          path: "/folija6.JPG",
         },
         {
           title: "title",
-          path: "/folija4.jpg",
+          path: "/folija4.JPG",
         },
         {
           title: "title",
-          path: "/folija5.jpg",
+          path: "/folija5.JPG",
         },
         {
           title: "title",
-          path: "/fototapet7.jpg",
+          path: "/fototapet7.JPG",
         },
       ],
     },
@@ -76,15 +76,15 @@ const gallerySlides = {
         },
         {
           title: "title",
-          path: "/folija12.jpg",
+          path: "/folija12.JPG",
         },
         {
           title: "title",
-          path: "/folija13.jpg",
+          path: "/folija13.JPG",
         },
         {
           title: "title",
-          path: "/folija14.jpg",
+          path: "/folija14.JPG",
         },
       ],
     },
@@ -92,19 +92,19 @@ const gallerySlides = {
       images: [
         {
           title: "title",
-          path: "/folija15.jpg",
+          path: "/folija15.JPG",
         },
         {
           title: "title",
-          path: "/folija16.jpg",
+          path: "/folija16.JPG",
         },
         {
           title: "title",
-          path: "/folija17.jpg",
+          path: "/folija17.JPG",
         },
         {
           title: "title",
-          path: "/folija18.jpg",
+          path: "/folija18.JPG",
         },
       ],
     },
