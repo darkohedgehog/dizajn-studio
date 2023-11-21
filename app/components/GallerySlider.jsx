@@ -20,7 +20,7 @@ const gallerySlides = {
         },
         {
           title: "title",
-          path: "/folija2.jpg",
+          path: "/folija2.JPG",
         },
         {
           title: "title",
@@ -32,7 +32,7 @@ const gallerySlides = {
       images: [
         {
           title: "title",
-          path: "/NorProo_Norway.JPG",
+          path: "/NorProo_Norway.jpg",
         },
         {
           title: "title",
