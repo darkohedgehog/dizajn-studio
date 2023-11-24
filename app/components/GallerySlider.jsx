@@ -12,39 +12,19 @@ const gallerySlides = {
       images: [
         {
           title: "title",
-          path: "/fototapet.jpg",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/76ecd172a132d6df55ad9c2ed8d52a6b911965ae-2048x1153.jpg",
         },
         {
           title: "title",
-          path: "/folija1.jpg",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/9da2c8f1e9001c726daf23a17f890f94bdb191a0-1600x901.jpg",
         },
         {
           title: "title",
-          path: "/folija2.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/5abea9c7cf3a640a76e5ad69ebbac4fcc4337209-1600x901.jpg",
         },
         {
           title: "title",
-          path: "/lola3.jpg",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "title",
-          path: "/NorProo_Norway.jpg",
-        },
-        {
-          title: "title",
-          path: "/3dslova1.JPG",
-        },
-        {
-          title: "title",
-          path: "/medijapan2.JPG",
-        },
-        {
-          title: "title",
-          path: "/folija3.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/2622f5e6f54991d64fddd1a9c5290f8fdde50c8c-2048x1153.jpg",
         },
       ],
     },
@@ -52,39 +32,19 @@ const gallerySlides = {
       images: [
         {
           title: "title",
-          path: "/folija6.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/5d47728da25fce0e1ec8804908d2df57b7e45d72-960x541.jpg",
         },
         {
           title: "title",
-          path: "/folija4.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/97df16fc8e6395dda9135a79b04b1f8685b6fba0-1600x901.jpg",
         },
         {
           title: "title",
-          path: "/folija5.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/f9f1b726deb6cec3594b240badd51199fa35a456-1600x901.jpg",
         },
         {
           title: "title",
-          path: "/fototapet7.JPG",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "title",
-          path: "/brand3.JPG",
-        },
-        {
-          title: "title",
-          path: "/folija12.JPG",
-        },
-        {
-          title: "title",
-          path: "/folija13.JPG",
-        },
-        {
-          title: "title",
-          path: "/folija14.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/999e53a6f75b81331a6e11051e9d91b35c5b6dc7-1600x901.jpg",
         },
       ],
     },
@@ -92,39 +52,19 @@ const gallerySlides = {
       images: [
         {
           title: "title",
-          path: "/folija15.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/4668693509d285f3a1debc769d14b3bad7b27c71-1600x901.jpg",
         },
         {
           title: "title",
-          path: "/folija16.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/3d63e5bbb24e34ef0ca88cb7e386e2f3d7099a51-1600x901.jpg",
         },
         {
           title: "title",
-          path: "/folija17.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/02e72fcdf0b8abebe233ff1f3c7ffc78aecd6c09-1600x901.jpg",
         },
         {
           title: "title",
-          path: "/folija18.JPG",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "title",
-          path: "/3dslova5.JPG",
-        },
-        {
-          title: "title",
-          path: "/3dslova6.JPG",
-        },
-        {
-          title: "title",
-          path: "/3dslova7.JPG",
-        },
-        {
-          title: "title",
-          path: "/3dslova8.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/ae3bb417a2a16574ffce78e31dbd00b2c85231c6-1600x901.jpg",
         },
       ],
     },
@@ -132,39 +72,19 @@ const gallerySlides = {
       images: [
         {
           title: "title",
-          path: "/folija19.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/33696c84667d47b8f301f0e3a81a9dbdac5becc5-1600x901.jpg",
         },
         {
           title: "title",
-          path: "/folija20.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/4850708f2d5826b5e3840e83aadde43a4d169621-1600x901.jpg",
         },
         {
           title: "title",
-          path: "/folija23.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/1541df3330018d13b55f72ae45c4f3d877026acc-1600x901.jpg",
         },
         {
           title: "title",
-          path: "/folija24.JPG",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "title",
-          path: "/folija31.JPG",
-        },
-        {
-          title: "title",
-          path: "/folija26.JPG",
-        },
-        {
-          title: "title",
-          path: "/folija27.JPG",
-        },
-        {
-          title: "title",
-          path: "/folija34.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/4b9271ff3a923e8566b77f46f9655bef2070c2ce-1600x901.jpg",
         },
       ],
     },
@@ -172,19 +92,19 @@ const gallerySlides = {
       images: [
         {
           title: "title",
-          path: "/folija28.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/4495e22da30a362056b2fc947f1a29c94750e876-1600x901.jpg",
         },
         {
           title: "title",
-          path: "/folija32.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/64f6e38865837ec01b06e9ddcae7a938b351612a-1600x901.jpg",
         },
         {
           title: "title",
-          path: "/folija36.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/a68a3dd0c6c1691fe88c3a6d4c9ccedfba78b7be-1600x901.jpg",
         },
         {
           title: "title",
-          path: "/folija41.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/73d8a695f63f64714d044fe189b51370f5ad7545-1600x901.jpg",
         },
       ],
     },
@@ -192,19 +112,99 @@ const gallerySlides = {
       images: [
         {
           title: "title",
-          path: "/brand5.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/b40e744f45b74708f0f6a99d52e80a9f6d73bb33-1600x901.jpg",
         },
         {
           title: "title",
-          path: "/svetleca3.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/a0c43a1547419dceebcab15c59f7537a6c711b3d-1600x901.jpg",
         },
         {
           title: "title",
-          path: "/svetleca4.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/5f1fa97499413013d992353b806639814a25c5cb-1600x901.jpg",
         },
         {
           title: "title",
-          path: "/folija7.JPG",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/cc63e47c179f15db7e28ca261fb6f983331229e9-1600x901.jpg",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "title",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/ddec71cedae32240ed3e520121191030a9095d44-1600x901.jpg",
+        },
+        {
+          title: "title",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/b314ad1dbdbba276a726d758d36c00c8cc5174e0-1600x901.jpg",
+        },
+        {
+          title: "title",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/f2f4a2e722479cbdff6f3ac85b72b7dab0ac6dea-1600x901.jpg",
+        },
+        {
+          title: "title",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/76e682517cd6c7733ab327ace594c36415747ded-1600x901.jpg",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "title",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/92e13fe21a003eab345b7b172a9104248246eea7-1600x901.jpg",
+        },
+        {
+          title: "title",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/e97314cfa43e8b906aa9854cee79148e7806d31d-1600x901.jpg",
+        },
+        {
+          title: "title",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/469f3feb1d7382e14b95ba49557da4991b3240d3-1600x901.jpg",
+        },
+        {
+          title: "title",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/8c2036d8489f4332fc72b39dfaaefe971e4f6890-1600x901.jpg",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "title",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/6df09d50c577ca4d8d0d5a4ef299ec95524e2e43-1600x901.jpg",
+        },
+        {
+          title: "title",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/4f52086d266d1c88b1d9974c0bb69e1e25614bef-1600x901.jpg",
+        },
+        {
+          title: "title",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/7ae36b85783965cc112ec8c165109ed668239b62-1600x901.jpg",
+        },
+        {
+          title: "title",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/44ea9b7b6152f21f9dd4391a022ef898d717286b-1600x901.jpg",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "title",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/c5fe67e3f08c11bf21d904fe2c705d34f6cde976-1600x901.jpg",
+        },
+        {
+          title: "title",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/13304f59fbf58591a9b18fbb9fa2db8cd36167d1-1600x901.jpg",
+        },
+        {
+          title: "title",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/3741595c111c16747756abccb43b8681a875b0a1-1600x901.jpg",
+        },
+        {
+          title: "title",
+          path: "https://cdn.sanity.io/images/odnncdrb/production/54002ff57fc258cbf39556ceb7cfc26b64c34f93-1600x901.jpg",
         },
       ],
     },

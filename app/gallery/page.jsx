@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 import {fadeIn} from "../../variants";
 
 const Gallery = () => {
-  const galleryLength = 10;
+ /* const galleryLength = 10;
   const images = [];
 
   for (let i = 1; i <= galleryLength; i++) {
     images.push(require(`../../public/gallery${i}.jpg`));
-  }
+  } */
 
   return (
     <>      

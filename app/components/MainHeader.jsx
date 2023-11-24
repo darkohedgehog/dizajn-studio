@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link";
 import Image from "next/image";
-import image from "../../public/bilbord1.png";
+//import image from "../../public/bilbord1.png";
 import { motion } from "framer-motion";
 import {fadeIn} from "../../variants";
 
@@ -47,7 +47,9 @@ const MainHeader = () => {
         <div className="container grid place-items-center relative">
         <div className="lg:block">
             <Image 
-            src={image} 
+            src={"https://cdn.sanity.io/images/odnncdrb/production/b536a59a714b091e9cc747f8a47d2d8ac4bd4f09-1024x1024.png"} 
+            width={500}
+            height={500}
             alt="HeaderImage"
             className="rounded-3xl bg-cover hover:animate-pulse duration-75 z-10"
             />            

@@ -18,7 +18,7 @@ const posts = [
     author: 'Ninoslav Janaćković',
     date: '3 April 2023',   
     poster:
-      '/design1.png',
+      'https://cdn.sanity.io/images/odnncdrb/production/be60f08e83f4cf168a1a5658e9a4dc0a90ca68fe-4096x4096.png',
   },
   {
     category: 'Dizajn',
@@ -28,7 +28,7 @@ const posts = [
     author: 'Ninoslav Janaćković',
     date: '1 April 2023',   
     poster:
-      '/designer1.png',
+      'https://cdn.sanity.io/images/odnncdrb/production/56b56b89333c54ab797ff8891cd020ebddb49e22-1024x1024.png',
   },
   {
     category: 'Dizajn',
@@ -38,7 +38,7 @@ const posts = [
     author: 'Ninoslav Janaćković',
     date: '28 Mart 2023',    
     poster:
-      '/designer2.png',
+      'https://cdn.sanity.io/images/odnncdrb/production/41bc96dbdeffff48dca07de8b52ced195552a46c-1024x1024.png',
   },
   {
     category: '3D-slova',
@@ -48,7 +48,7 @@ const posts = [
     author: 'Ninoslav Janaćković',
     date: '25 Mart 2023',   
     poster:
-      '/3dslova2.JPG',
+      'https://cdn.sanity.io/images/odnncdrb/production/d30999b513ce3ac84e69c6e1bec3fe9f9df17c2d-1600x901.jpg',
   },
   {
     category: '3D-slova',
@@ -58,7 +58,7 @@ const posts = [
     author: 'Ninoslav Janaćković',
     date: '22 Maj 2023',   
     poster:
-      '/3dslova10.JPG',
+      'https://cdn.sanity.io/images/odnncdrb/production/44852243138535a772a51265a67e289a8223bbf7-901x973.jpg',
   },
   {
     category: '3D-slova',
@@ -67,7 +67,7 @@ const posts = [
     author: 'Ninoslav Janaćković',
     date: '19 Jun 2023',    
     poster:
-      '/gallery11.jpg',
+      'https://cdn.sanity.io/images/odnncdrb/production/320cb5ecf22a081cc380acb851d619e6a584559c-683x691.jpg',
   },
   {
     category: 'Reklamne-folije',
@@ -77,7 +77,7 @@ const posts = [
     author: 'Ninoslav Janaćković',
     date: '10 Septembar 2023',    
     poster:
-      '/folija27.JPG',
+      'https://cdn.sanity.io/images/odnncdrb/production/469f3feb1d7382e14b95ba49557da4991b3240d3-1600x901.jpg',
   },
   {
     category: 'Reklamne-folije',
@@ -87,7 +87,7 @@ const posts = [
     author: 'Ninoslav Janaćković',
     date: '13 Avgust 2023',   
     poster:
-      '/folija39.JPG',
+      'https://cdn.sanity.io/images/odnncdrb/production/f8c3ae40ec03c739e5f1bbda53e11627f88a9d92-1600x901.jpg',
   },
   {
     category: 'Reklamne-folije',
@@ -97,7 +97,7 @@ const posts = [
     author: 'Ninoslav Janaćković',
     date: '10 Oktobar 2023',    
     poster:
-      '/folija42.JPG',
+      'https://cdn.sanity.io/images/odnncdrb/production/1493102bcfa76dca4e70f1fa50174baab8e998c4-1600x901.jpg',
   },
   {
     category: 'Foto-tapet',
@@ -107,7 +107,7 @@ const posts = [
     author: 'Ninoslav Janaćković',
     date: '10 Mart 2023',    
     poster:
-      '/fototapet6.png',
+      'https://cdn.sanity.io/images/odnncdrb/production/cce4d129941004701c50b5f046f1d49a25f5a63f-1024x1024.png',
   },
   {
     category: 'Foto-tapet',
@@ -117,7 +117,7 @@ const posts = [
     author: 'Ninoslav Janaćković',
     date: '10 Februar 2023',    
     poster:
-      '/fototapet4.png',
+      'https://cdn.sanity.io/images/odnncdrb/production/d264f95f2014a683e0e5dd87c58b0c0d388bb0c5-1024x1024.png',
   },
   {
     category: 'Foto-tapet',
@@ -127,7 +127,7 @@ const posts = [
     author: 'Ninoslav Janaćković',
     date: '15 Mart 2023',    
     poster:
-      '/fototapet5.png',
+      'https://cdn.sanity.io/images/odnncdrb/production/faccd3fc1b6c67edd1886fe9d4d9a4d9c7f4edcf-1024x1024.png',
   },
 ]
 

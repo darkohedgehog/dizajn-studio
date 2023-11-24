@@ -16,17 +16,17 @@ const aboutWork = [
         title: "Naši radovi",
         info: [
             {
-                path: "/main2.png",
-                name: "Bilbord",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/788e75f138b5f15f8a1bfd551065d2a47097bc2e-779x623.png",
+                name: "C Kafa",
             },
             {
-                path: "/main6.jpg",
-                name: "Bilbord2",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/4e47b3a26d53bd37aead211e870d0f025e04329d-1126x901.jpg",
+                name: "Moravac",
             },
            
             {
-                path: "/main3.jpg",
-                name: "Bilbord4",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/3d72f8893a5d050fecd94e15aaffa44bde955d49-901x720.jpg",
+                name: "Hilton",
             },
         ],
     },
@@ -34,13 +34,13 @@ const aboutWork = [
         title: "3D slova",
         info: [
             {
-                path: "/mainslova1.jpg",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/f69b62e1a13d23eb3d70b4c74e4b54342a59dda4-1126x901.jpg",
             },
             {
-                path: "/mainslova2.jpg",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/ed3aaff27763042a74135748ec56127731eef610-1126x901.jpg",
             },
             {
-                path: "/mainslova3.jpg",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/4013bad6567dfd28a74df15e0fffdc4d63f856dc-1126x901.jpg",
             },
         ],
     },
@@ -49,15 +49,15 @@ const aboutWork = [
         info: [
             {
 
-                path: "/fototapet4.png",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/d264f95f2014a683e0e5dd87c58b0c0d388bb0c5-1024x1024.png",
             },
             {
 
-                path: "/fototapet5.png",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/faccd3fc1b6c67edd1886fe9d4d9a4d9c7f4edcf-1024x1024.png",
             },
             {
 
-                path: "/fototapet6.png",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/cce4d129941004701c50b5f046f1d49a25f5a63f-1024x1024.png",
             },
         ],
     },
@@ -66,15 +66,15 @@ const aboutWork = [
         info: [
             {
 
-                path: "/mainfolija1.jpg",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/e701f332f2edf5c1a670dc29c129e2ccc7830b92-1500x1200.jpg",
             },
             {
 
-                path: "/mainfolija2.jpg",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/aff8fcb89803942ada823eae6901ff36e0f89ee4-1126x901.jpg",
             },
             {
 
-                path: "/mainfolija3.jpg",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/4013bad6567dfd28a74df15e0fffdc4d63f856dc-1126x901.jpg",
             },
         ],
     },

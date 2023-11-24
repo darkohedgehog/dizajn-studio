@@ -1,13 +1,13 @@
 "use client"
 import React, { useEffect, useState, useRef } from "react";
-import IMG1 from "../../public/gallery1.jpg";
-import IMG2 from "../../public/gallery2.jpg";
-import IMG3 from "../../public/gallery3.jpg";
-import IMG4 from "../../public/gallery4.jpg";
-import IMG5 from "../../public/gallery5.jpg";
-import IMG6 from "../../public/gallery6.jpg";
-import IMG7 from "../../public/gallery7.jpg";
-import IMG8 from "../../public/gallery8.jpg";
+//import IMG1 from "../../public/gallery1.jpg";
+//import IMG2 from "../../public/gallery2.jpg";
+//import IMG3 from "../../public/gallery3.jpg";
+//import IMG4 from "../../public/gallery4.jpg";
+//import IMG5 from "../../public/gallery5.jpg";
+//import IMG6 from "../../public/gallery6.jpg";
+//import IMG7 from "../../public/gallery7.jpg";
+//import IMG8 from "../../public/gallery8.jpg";
 import Image from "next/image";
 
 const MainCarousel = () => {
@@ -122,35 +122,51 @@ const MainCarousel = () => {
         <div id="spin-container">
           {/* Add your images (or video) here */}
           <Image
-            src={IMG1}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/5d4757d4e3d5c907224a45a9d34da101f2c03a89-1153x2048.jpg"}
+            width={300}
+            height={400}
             alt=""
           />
            <Image
-            src={IMG2}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/5d4757d4e3d5c907224a45a9d34da101f2c03a89-1153x2048.jpg"}
+            width={300}
+            height={400}
             alt=""
           />
            <Image
-            src={IMG3}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/418ef4bde11368a58996eaffd77e74e348ee9cb0-1153x2048.jpg"}
+            width={300}
+            height={400}
             alt=""
           />
            <Image
-            src={IMG4}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/d15389cea0b0a65f4b93c3a0ef416463c962d748-1153x2048.jpg"}
+            width={300}
+            height={400}
             alt=""
           />
            <Image
-            src={IMG5}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/80855d87f821fb918a7e076f39ccd8e0353e90df-1153x2048.jpg"}
+            width={300}
+            height={400}
             alt=""
           />
            <Image
-            src={IMG6}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/e1ee1db59532a44125cc6bbed7eb2de8b4256cbb-1153x2048.jpg"}
+            width={300}
+            height={400}
             alt=""
           />
            <Image
-            src={IMG7}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/1dd9e674a51278bce4dd4aaa52efc35dc23b5a20-1153x2048.jpg"}
+            width={300}
+            height={400}
             alt=""
           />
            <Image
-            src={IMG8}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/5a33eafa25cd0150fd4cec26460b70ea8273b466-901x1198.jpg"}
+            width={300}
+            height={400}
             alt=""
           />
         </div>

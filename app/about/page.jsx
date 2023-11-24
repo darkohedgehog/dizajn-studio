@@ -1,7 +1,7 @@
 "use client"
-import StoryImage from "../../public/hedgehog1000_a_portfolio_website_cover_photo_for_a_graphic_desi_cabe4185-2624-4a10-b4ef-e061d7799d30.png";
-import VisionImage from "../../public/vision2.png";
-import MissionImage from "../../public/bilbord3.png";
+//import StoryImage from "../../public/hedgehog1000_a_portfolio_website_cover_photo_for_a_graphic_desi_cabe4185-2624-4a10-b4ef-e061d7799d30.png";
+//import VisionImage from "../../public/vision2.png";
+//import MissionImage from "../../public/bilbord3.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
@@ -84,7 +84,9 @@ const About = () => {
           className="container">
             <Image 
             className="rounded-3xl hover:-skew-y-2" 
-            src={StoryImage} 
+            src={"https://cdn.sanity.io/images/odnncdrb/production/e5b1b72f7c6337ab21f81f03c23edcbec0a01847-1456x816.png"} 
+            width={400}
+            height={300}
             alt="O nama" />
           </motion.div>
           <motion.div 
@@ -134,7 +136,9 @@ const About = () => {
           className="container">
             <Image 
             className="rounded-3xl hover:-skew-y-2" 
-            src={VisionImage} 
+            src={"https://cdn.sanity.io/images/odnncdrb/production/a9568aa60702031447df52cac9d0bcd27a388d0f-1024x1024.png"} 
+            width={380}
+            height={200}
             alt="Vision" />
           </motion.div>
         </div>
@@ -151,7 +155,9 @@ const About = () => {
           className="container">
             <Image 
             className="rounded-3xl hover:-skew-y-2 mb-4 mx-auto" 
-            src={MissionImage}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/a40bbbdc747d7269ce8341efd95e2b56842a7236-1024x606.png"}
+            width={400}
+            height={300}
             alt="Naša misija" />
           </motion.div>
           <motion.div 
