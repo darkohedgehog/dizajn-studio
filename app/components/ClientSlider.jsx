@@ -59,16 +59,16 @@ const clientsData = [
                 alt=""/>
               </div>
               {/* name */}
-              <div className="text-lg">{person.name}</div>
+              <div className="text-lg text-gray-300">{person.name}</div>
               {/* position */}
-              <div className="text-[12px] uppercase font-extralight tracking-widest">{person.position}</div>
+              <div className="text-[12px] uppercase font-extralight tracking-widest text-gray-400">{person.position}</div>
             </div>
           </div>
           {/* message */}
-          <div className="flex flex-1 flex-col justify-center before:w-[1px] xl:before:bg-white/20 xl:before:absolute xl:before:left-0 xl:before:h-[200px] relative xl:pl-20">
+          <div className="flex flex-1 flex-col justify-center before:w-[1px] xl:before:bg-white/20 xl:before:absolute xl:before:left-0 xl:before:h-[200px] relative xl:pl-20 text-gray-400">
             {/* quote icon */}
             <div className="mb-4">
-            <FaQuoteLeft className="text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0" />
+            <FaQuoteLeft className="text-4xl xl:text-6xl text-white/40 mx-auto md:mx-0" />
             </div>
             {/* message */}
             <div className="xl:text-lg text-center md:text-left">{person.message}</div>

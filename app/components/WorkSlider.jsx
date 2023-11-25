@@ -107,7 +107,7 @@ const WorkSlider = () => {
                         animate={isComponentVisible ? "show" : "hidden"}
                         exit="hidden"
                         ref={ref}
-                        className="h2"
+                        className="h2 text-gray-200"
                     >
                         Zadivljujuće <span className="text-accent">priče</span> rađaju
                         magičan dizajn.
@@ -121,7 +121,7 @@ const WorkSlider = () => {
                     animate={isComponentVisible ? "show" : "hidden"}
                     exit="hidden"
                     ref={ref}
-                    className="flex flex-col w-full h-full"
+                    className="flex flex-col w-full h-full text-gray-300"
                 >
                     <div className="flex gap-x-4 xl:gap-x-8 mx-auto mb-10">
                         {aboutWork.map((item, itemIndex) => {

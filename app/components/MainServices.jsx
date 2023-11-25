@@ -35,7 +35,7 @@ const MainServices = () => {
                animate={isComponentVisible ? "show" : "hidden"}
                exit="hidden"
                ref={ref} 
-              className=" h2 xl:mt-8"
+              className=" h2 xl:mt-8 text-gray-200"
             >
               Naše usluge <span className="text-accent">.</span>
             </motion.h2>

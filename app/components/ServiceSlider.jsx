@@ -72,12 +72,12 @@ const serviceData = [
           {/* icon */}
           <div className="text-4xl text-accent mb-4">{item.icon}</div>
           {/* title & desc */}
-          <div className="mb-8 text-gray-300">
+          <div className="mb-8 text-gray-200">
             <div className="mb-2 text-lg">{item.title}</div>
-            <p className="max-w-[35px] leading-normal text-gray-400">{item.description}</p>
+            <p className="max-w-[35px] leading-normal text-gray-300">{item.description}</p>
           </div>
           {/* arrow */}
-          <div className="text-3xl">
+          <div className="text-3xl text-gray-400">
             <RxArrowBottomRight className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300" />
           </div>
          </div>

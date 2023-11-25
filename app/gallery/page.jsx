@@ -1,5 +1,8 @@
 "use client"
-import GallerySlider from "../components/GallerySlider";
+import dynamic from 'next/dynamic';
+
+const GallerySlider = dynamic(() => import('../components/GallerySlider'), { name: 'GallerySliderChunk' });
+
 import { motion } from "framer-motion";
 import {fadeIn} from "../../variants";
 
@@ -39,7 +42,7 @@ const Gallery = () => {
             </div>
             {/* slider */}
             <motion.div
-              variants={fadeIn("down", 0.6)}
+              variants={fadeIn("up", 0.6)}
               initial="hidden"
               animate="show"
               exit="hidden"

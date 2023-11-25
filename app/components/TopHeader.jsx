@@ -11,7 +11,7 @@ const TopHeader = () => {
         <div className="container mx-auto">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6">
             {/* logo */}
-            <Link href={'/'}>
+            <Link href={'/'} prefetch={true}>
             <Image 
               src={'/logo_firme-removebg-preview.png'}
               width={85}

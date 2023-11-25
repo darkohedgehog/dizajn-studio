@@ -1,7 +1,6 @@
 "use client"
 import Link from "next/link";
 import Image from "next/image";
-//import image from "../../public/bilbord1.png";
 import { motion } from "framer-motion";
 import {fadeIn} from "../../variants";
 
@@ -23,7 +22,7 @@ const MainHeader = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="text-4xl md:text-5xl font-bold">
+          className="text-4xl md:text-5xl font-bold text-gray-200">
             VAŠE <span className="text-accent">REKLAME</span> U SAVRŠENOM SVETLU
           </motion.h2>
           <motion.p 
