@@ -84,7 +84,7 @@ const About = () => {
           className="container">
             <Image 
             className="rounded-3xl hover:-skew-y-2" 
-            src={"https://cdn.sanity.io/images/odnncdrb/production/e5b1b72f7c6337ab21f81f03c23edcbec0a01847-1456x816.png"} 
+            src={"https://cdn.sanity.io/images/odnncdrb/production/058d85a2a301c8ae6ae5bf9df7f850074098892e-1456x816.png"} 
             width={400}
             height={300}
             alt="O nama" />
@@ -136,9 +136,9 @@ const About = () => {
           className="container">
             <Image 
             className="rounded-3xl hover:-skew-y-2" 
-            src={"https://cdn.sanity.io/images/odnncdrb/production/a9568aa60702031447df52cac9d0bcd27a388d0f-1024x1024.png"} 
-            width={380}
-            height={200}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/f65ae8ef17ac2e7cf53fde2f83ee95c91e0180f7-1024x576.png"} 
+            width={400}
+            height={300}
             alt="Vision" />
           </motion.div>
         </div>
@@ -155,7 +155,7 @@ const About = () => {
           className="container">
             <Image 
             className="rounded-3xl hover:-skew-y-2 mb-4 mx-auto" 
-            src={"https://cdn.sanity.io/images/odnncdrb/production/a40bbbdc747d7269ce8341efd95e2b56842a7236-1024x606.png"}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/deb7c0070e41ba7ca5b668c92a517f70193bd1ae-1024x606.png"}
             width={400}
             height={300}
             alt="Naša misija" />

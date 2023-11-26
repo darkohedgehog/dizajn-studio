@@ -114,49 +114,49 @@ const MainCarousel = () => {
         <div id="spin-container">
           {/* Add your images (or video) here */}
           <Image
-            src={"https://cdn.sanity.io/images/odnncdrb/production/5d4757d4e3d5c907224a45a9d34da101f2c03a89-1153x2048.jpg"}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/3c0e8f740146ae7dfe5e8bd1ec5c0e59ad4d4ae8-1153x2048.jpg"}
             width={300}
             height={400}
             alt=""
           />
            <Image
-            src={"https://cdn.sanity.io/images/odnncdrb/production/5d4757d4e3d5c907224a45a9d34da101f2c03a89-1153x2048.jpg"}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/80f841e8d784e68c6b65248149feb2cff11dc796-1153x2048.jpg"}
             width={300}
             height={400}
             alt=""
           />
            <Image
-            src={"https://cdn.sanity.io/images/odnncdrb/production/418ef4bde11368a58996eaffd77e74e348ee9cb0-1153x2048.jpg"}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/6b6c00d6082f21a728243f2257b2cea439e83325-1153x2048.jpg"}
             width={300}
             height={400}
             alt=""
           />
            <Image
-            src={"https://cdn.sanity.io/images/odnncdrb/production/d15389cea0b0a65f4b93c3a0ef416463c962d748-1153x2048.jpg"}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/41ce0264768c1a57eee32fcd4900f50df8dc6acb-1153x2048.jpg"}
             width={300}
             height={400}
             alt=""
           />
            <Image
-            src={"https://cdn.sanity.io/images/odnncdrb/production/80855d87f821fb918a7e076f39ccd8e0353e90df-1153x2048.jpg"}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/f6d41f6573f16f0fa7e87b47f6d5e5f5f63d46a3-1153x2048.jpg"}
             width={300}
             height={400}
             alt=""
           />
            <Image
-            src={"https://cdn.sanity.io/images/odnncdrb/production/e1ee1db59532a44125cc6bbed7eb2de8b4256cbb-1153x2048.jpg"}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/bdb6c273b520975be38860e7c952aed705a41d9e-1153x2048.jpg"}
             width={300}
             height={400}
             alt=""
           />
            <Image
-            src={"https://cdn.sanity.io/images/odnncdrb/production/1dd9e674a51278bce4dd4aaa52efc35dc23b5a20-1153x2048.jpg"}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/63a20e946057be7755dacf8b9f36674664fe97c7-1153x2048.jpg"}
             width={300}
             height={400}
             alt=""
           />
            <Image
-            src={"https://cdn.sanity.io/images/odnncdrb/production/5a33eafa25cd0150fd4cec26460b70ea8273b466-901x1198.jpg"}
+            src={"https://cdn.sanity.io/images/odnncdrb/production/be562cb2c03e321bf6711da5ade6c4f2cbee07ff-1153x2048.jpg"}
             width={300}
             height={400}
             alt=""

@@ -16,16 +16,16 @@ const aboutWork = [
         title: "Naši radovi",
         info: [
             {
-                path: "https://cdn.sanity.io/images/odnncdrb/production/788e75f138b5f15f8a1bfd551065d2a47097bc2e-779x623.png",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/901f59d86a9aee73464a27ae8c52570abc1df96c-779x623.png",
                 name: "C Kafa",
             },
             {
-                path: "https://cdn.sanity.io/images/odnncdrb/production/4e47b3a26d53bd37aead211e870d0f025e04329d-1126x901.jpg",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/74f72cab14b5649736eab99eb9c316352055335b-1126x901.jpg",
                 name: "Moravac",
             },
            
             {
-                path: "https://cdn.sanity.io/images/odnncdrb/production/3d72f8893a5d050fecd94e15aaffa44bde955d49-901x720.jpg",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/df89c41196ad27e2ab8be03d835b6d7192c95c25-901x720.jpg",
                 name: "Hilton",
             },
         ],
@@ -34,13 +34,13 @@ const aboutWork = [
         title: "3D slova",
         info: [
             {
-                path: "https://cdn.sanity.io/images/odnncdrb/production/f69b62e1a13d23eb3d70b4c74e4b54342a59dda4-1126x901.jpg",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/02cdba2367b8d2ff6f308e540360f5d2c3eea109-1126x901.jpg",
             },
             {
-                path: "https://cdn.sanity.io/images/odnncdrb/production/ed3aaff27763042a74135748ec56127731eef610-1126x901.jpg",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/b4e93f54b054ed9e552fae9f8172c48e186a89e6-1126x901.jpg",
             },
             {
-                path: "https://cdn.sanity.io/images/odnncdrb/production/4013bad6567dfd28a74df15e0fffdc4d63f856dc-1126x901.jpg",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/df89c41196ad27e2ab8be03d835b6d7192c95c25-901x720.jpg",
             },
         ],
     },
@@ -49,15 +49,15 @@ const aboutWork = [
         info: [
             {
 
-                path: "https://cdn.sanity.io/images/odnncdrb/production/d264f95f2014a683e0e5dd87c58b0c0d388bb0c5-1024x1024.png",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/ce961520611ab36396e5fb07ef8599aab2d7c57d-1024x1024.png",
             },
             {
 
-                path: "https://cdn.sanity.io/images/odnncdrb/production/faccd3fc1b6c67edd1886fe9d4d9a4d9c7f4edcf-1024x1024.png",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/e6e03a35657dec50988d7c882a8c1511fcdfcf23-1024x1024.png",
             },
             {
 
-                path: "https://cdn.sanity.io/images/odnncdrb/production/cce4d129941004701c50b5f046f1d49a25f5a63f-1024x1024.png",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/00f1e18191fd25cbf78b56221881006a98aee3ae-1024x1024.png",
             },
         ],
     },
@@ -66,11 +66,11 @@ const aboutWork = [
         info: [
             {
 
-                path: "https://cdn.sanity.io/images/odnncdrb/production/e701f332f2edf5c1a670dc29c129e2ccc7830b92-1500x1200.jpg",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/da1c670fe8b59ffa33d6fbac3f3fdd234b445864-1500x1200.jpg",
             },
             {
 
-                path: "https://cdn.sanity.io/images/odnncdrb/production/aff8fcb89803942ada823eae6901ff36e0f89ee4-1126x901.jpg",
+                path: "https://cdn.sanity.io/images/odnncdrb/production/02420c73a55f4c830d5dfbff158affd3fdb3700e-1126x901.jpg",
             },
             {
 
