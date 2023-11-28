@@ -16,7 +16,7 @@
     "@sanity/vision": "^3.19.3",
     "axios": "^1.6.1",
     "framer-motion": "^10.16.4",
-    "next": "14.0.2",
+    "next": "14.0.3",
     "next-sanity": "^5.5.10",
     "next-sitemap": "^4.2.3",
     "react": "^18",
