@@ -1,14 +1,10 @@
 "use client"
-//import StoryImage from "../../public/hedgehog1000_a_portfolio_website_cover_photo_for_a_graphic_desi_cabe4185-2624-4a10-b4ef-e061d7799d30.png";
-//import VisionImage from "../../public/vision2.png";
-//import MissionImage from "../../public/bilbord3.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 import React, { useState, useEffect } from "react";
 import { useInView } from 'react-intersection-observer';
 import CountUp from "react-countup";
-
 
 
 const About = () => {
