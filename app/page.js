@@ -4,7 +4,7 @@ const ParticlesContainer = dynamic(() => import('./components/ParticlesContainer
 const MainHeader = dynamic(() => import('./components/MainHeader'), { name: 'MainHeaderChunk' });
 const MainServices = dynamic(() => import('./components/MainServices'), { name: 'MainServicesChunk' });
 const WorkSlider = dynamic(() => import('./components/WorkSlider'), { name: 'WorkSliderChunk' });
-const Clients = dynamic(() => import('./components/Clients'), { name: 'ClientsChunk' });
+//const Clients = dynamic(() => import('./components/Clients'), { name: 'ClientsChunk' });
 const MainCarousel = dynamic(() => import('./components/MainCarousel'), { name: 'MainCarouselChunk' });
 
 export default function Home() {
@@ -13,8 +13,7 @@ export default function Home() {
       <ParticlesContainer />
       <MainHeader />      
       <MainServices />      
-      <WorkSlider />  
-      <Clients />   
+      <WorkSlider />    
       <MainCarousel />                   
     </div>   
   );
